@@ -42,3 +42,7 @@ while True:
 
         else:
             print(f"Gasto de R${valor:.2f}")
+
+    elif op == "3":
+
+        print(f"\nSeu saldo atual é: R${saldo:.2f}")
