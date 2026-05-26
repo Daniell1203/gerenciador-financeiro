@@ -32,7 +32,7 @@ while True:
         saldo -= valor
 
         if categoria == "1":
-         print(f"Gasto com comida: R${valor:.2f}")
+            print(f"Gasto com comida: R${valor:.2f}")
 
         elif categoria == "2":
             print(f"Gasto com transporte: R${valor:.2f}")
@@ -46,8 +46,11 @@ while True:
     elif op == "3":
 
         print(f"\nSeu saldo atual é: R${saldo:.2f}")
-    
+
     elif op == "4":
 
         print("Encerrando programa...")
         break
+
+    else:
+        print("Opção inválida!")
