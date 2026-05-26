@@ -9,3 +9,11 @@ while True:
     print("4 - Sair")
 
     op = input("Escolha uma opção: ")
+
+    if op == "1":
+
+        valor = float(input("Digite o salário: "))
+
+        saldo += valor
+
+    print(f"Salário de R${valor:.2f} adicionado!")
