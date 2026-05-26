@@ -46,3 +46,8 @@ while True:
     elif op == "3":
 
         print(f"\nSeu saldo atual é: R${saldo:.2f}")
+    
+    elif op == "4":
+
+        print("Encerrando programa...")
+        break
